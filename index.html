@@ -1,68 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>smart-ticketing-project</title>
-    
-<link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-<link rel="stylesheet" href="styles/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>smart-ticketing-project</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
+
 <body>
-    <header>
-        <!-- nav section -->
-        <nav class="max-w-6xl mx-auto mt-12 ">
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li><a>Home</a></li>
-                      <li><a>About</a></li>
-                      <li><a>Destination</a></li>
-                      <li><a>Search</a></li>
-                    </ul>
-                  </div>
-                  <a class=" text-3xl font-extrabold raleway-font text-black">P-Ticket</a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1 font-medium opacity-70 raleway-font">
-                    <li><a>Home</a></li>
-                      <li><a>About</a></li>
-                      <li><a>Destination</a></li>
-                      <li><a>Search</a></li>
-                  </ul>
-                </div>
-                <div class="navbar-end ">
-                  <a class="btn bg-[#1DD1001A] w-32 h-14 raleway-font font-bold text-[#1DD100] border-green-400">Bus
-                    <img src="./images/bus-icon.png" alt="">
-                  </a>
-                  
-                </div>
-              </div>
-        </nav>
-        <!-- hero section -->
-        <div class="max-w-6xl mx-auto mt-12 ">
-            <div class="hero h-[550px]  bg-cover" style="background-image: url(./images/banner.png);">
-                <div class=" "></div>
-                <div class="hero-content text-center text-neutral-content">
-                  <div class="">
-                    <h1 class="mb-5 text-6xl font-extrabold text-white">End-to-End Travel with <br> <span class="text-[#1DD100]">P Paribahan</span></h1>
-                    <p class="mb-5 inter-font">Yes, you can run unit tests and view the results directly within the app. The <br> integrated testing features allow for a streamlined .</p>
-                    <button class="btn w-40 h-16 text-xl bg-[#1DD100] font-bold text-black border-none">Buy Tickets</button>
-                  </div>
-                </div>
-              </div>
+  <header>
+    <!-- nav section -->
+    <nav class="max-w-6xl mx-auto mt-12 ">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Destination</a></li>
+              <li><a>Search</a></li>
+            </ul>
+          </div>
+          <a class=" text-3xl font-extrabold raleway-font text-black">P-Ticket</a>
         </div>
-    </header>
-    <main>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 font-medium opacity-70 raleway-font">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Destination</a></li>
+            <li><a>Search</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end ">
+          <a class="btn bg-[#1DD1001A] w-32 h-14 raleway-font font-bold text-[#1DD100] border-green-400">Bus
+            <img src="./images/bus-icon.png" alt="">
+          </a>
 
-    </main>
-    <footer>
+        </div>
+      </div>
+    </nav>
+    <!-- hero section -->
+    <div class="max-w-6xl mx-auto mt-12 ">
+      <div class="hero h-[550px]  bg-cover" style="background-image: url(./images/banner.png);">
+        <div class=" "></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="">
+            <h1 class="mb-5 text-6xl font-extrabold text-white">End-to-End Travel with <br> <span
+                class="text-[#1DD100]">P Paribahan</span></h1>
+            <p class="mb-5 inter-font">Yes, you can run unit tests and view the results directly within the app. The
+              <br> integrated testing features allow for a streamlined .</p>
+            <button class="btn w-40 h-16 text-xl bg-[#1DD100] font-bold text-black border-none">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Best offers for you -->
+    <div class="mx-auto w-80 h-12 mt-20">
+      <h2 class="font-bold text-4xl raleway-font">Best offers for you</h2>
+    </div>
+    <!-- coupon section -->
+    <div class="flex justify-between max-w-6xl mx-auto mt-12">
+      <div class="w-[560px] h-[220px] bg-[#FFBF0F] rounded-3xl flex justify-between ">
+        <div class="p-14 gap-7" >
+          <h2 class="font-extrabold text-4xl raleway-font" >15% OFF
+          </h2>
+          <p class="text-xl">on your next purchase
+          </p>
+          <p class="opacity-70 text-xl">use by January 2024</p>
+        </div>
+        <div class="py-16 px-14 gap-7">
+          <h2  class="font-bold text-4xl raleway-font">NEW15
+           </h2>
+          <p class="opacity-70 text-xl"> Coupon Code</p>
+        </div>
+      </div>
+      <div class="w-[570px] h-[220px] bg-[#F78C9C] rounded-3xl flex justify-between ">
+        <div class="p-14 gap-7" >
+          <h2 class="font-extrabold text-4xl raleway-font" >20% OFF
+          </h2>
+          <p class="text-xl">on your next purchase
+          </p>
+          <p class="opacity-70 text-xl">use by January 2024</p>
+        </div>
+        <div class="py-20 px-10 ">
+          <h2  class="font-bold text-4xl raleway-font">Couple 20</h2>
+          <p class="opacity-70 text-xl"> Coupon Code</p>
+        </div>
+      </div>
 
-    </footer>
+    </div>
+    <div class="flex justify-center max-w-6xl mx-auto mt-12">
+      <button class="btn font-bold text-xl bg-white text-[#1DD100] raleway-font border-green-500 px-5 h-16">See All Offers</button>
+    </div>
+  </header>
+  <main>
+
+  </main>
+  <footer>
+
+  </footer>
 </body>
+
 </html>
