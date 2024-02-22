@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
   <meta charset="UTF-8">
@@ -59,7 +59,7 @@
                 class="text-[#1DD100]">P Paribahan</span></h1>
             <p class="mb-5 inter-font">Yes, you can run unit tests and view the results directly within the app. The
               <br> integrated testing features allow for a streamlined .</p>
-            <button class="btn w-40 h-16 text-xl bg-[#1DD100] font-bold text-black border-none">Buy Tickets</button>
+            <button onclick="location.href='#take-me' " class="btn w-40 h-16 text-xl bg-[#1DD100] font-bold text-black border-none ">Buy Tickets  </button>
           </div>
         </div>
       </div>
@@ -105,7 +105,7 @@
   </header>
   <main>
     <!-- ticket container -->
-    <div class="bg-[#F7F8F8] w-[1440px] h-[2008px]  mt-20 mx-auto ">
+    <div  class="bg-[#F7F8F8] w-[1440px] h-[2008px]  mt-20 mx-auto ">
       <div class="flex flex-col justify-center text-center ">
         <h1 class="font-bold text-4xl raleway-font text-black mt-20">P.H Paribahan</h1>
         <p class="opacity-75 text-lg inter-font font-normal mt-6 ">Yes, you can run unit tests and view the results directly within the app. The integrated <br> testing features allow for a streamlined .</p>
@@ -159,7 +159,7 @@
         </div>
         <div class="flex bg-white justify-between rounded-xl p-8">
           <!-- ///// -->
-          <div class="max-w-6xl h-[550px]  mt-4 space-y-7">
+          <div id="take-me" class="max-w-6xl h-[550px]  mt-4 space-y-7">
             <div class="flex justify-start">
               <h1 class="font-semibold text-2xl raleway-fond">Select Your Seat</h1>
             </div>
@@ -211,7 +211,7 @@
             <div class="flex justify-start ">
               <h1 class="font-semibold text-2xl raleway-font">Select Your Seat</h1>
             </div>
-            <div class="bg-[#F7F8F8] w-[433px] space-y-7 h-[335px] p-8 rounded-xl mt-6">
+            <div class="bg-[#F7F8F8] w-[433px] space-y-7 h-[450px] p-8 rounded-xl mt-6">
               <div class="font-medium inter-font  flex justify-around" >
                 <p>Seat <span id="seat" class="bg-[#1DD100] text-white rounded-md">0</span></p>
                 <p>Class</p>
@@ -222,7 +222,7 @@
               <hr>
               <div class="font-medium inter-font  flex justify-between">
                 <p>Total Price</p>
-                <p>BDT <span id="tolal-price">0</span> </p>
+                <p>BDT <span id="total-price">0</span> </p>
               </div>
               <div class="w-[370px] h-[56px] bg-white rounded-xl flex justify-around">
                 <input placeholder="Have any copupon?" type="text ">
@@ -230,7 +230,7 @@
               </div>
               <div class="font-medium inter-font  flex justify-between">
                 <p>Grand Total</p>
-                <p>BDT <span id=" grand-total">0</span> </p>
+                <p>BDT <span id="grand-total">0</span> </p>
               </div>
             
             </div>

@@ -24,6 +24,8 @@ for(const btn of allBtn){
       div.appendChild(p2);
       div.appendChild(p3);
       selectedContainer.appendChild(div);
+      updateTotalPrice(ticketPrice);
+      updateGrandTotal()
 
 
     //    console.log(event.target.parentNode.parentNode.parentNode.parentNode.parentNode.childNodes[1].childNodes[3].childNodes[3]
@@ -35,12 +37,20 @@ for(const btn of allBtn){
 
 
 
+function updateGrandTotal()
+{
+    const totalPrice =getConvertedValue("total-price"); 
+    document.getElementById("grand-total").innerText=totalPrice;
+}
 
 
 
-
-
-
+function updateTotalPrice(value){
+    
+    const totalPrice =getConvertedValue("total-price");
+    const sum = totalPrice + parseInt(value);
+    document.getElementById("total-price").innerText = sum;
+}
 
 
 
